@@ -1,0 +1,9 @@
+# Core dependencies (required)
+tkinter                # Built-in: GUI framework
+reportlab>=3.6.0       # PDF report generation
+math                   # Built-in: Mathematical operations
+dataclasses            # Built-in: Data structures
+datetime               # Built-in: Timestamps
+
+# Optional dependencies (for DXF export)
+ezdxf>=0.17.0          # AutoCAD DXF file generation
