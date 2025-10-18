@@ -197,8 +197,8 @@ The modern graphical interface will open:
 ```
 ╔════════════════════════════════════════════════════════════════╗
 ║                                                                ║
-║        🏗️ Stairway Designer Pro                               ║
-║        NSCP 2015 Compliant Concrete Stairway Design Tool      ║
+║        🏗️ Stairway Designer Pro                               ║ 
+║        NSCP 2015 Compliant Concrete Stairway Design Tool       ║
 ║                                                                ║
 ╚════════════════════════════════════════════════════════════════╝
 ┌────────────────────────────────┬──────────────────────────────┐
@@ -212,7 +212,7 @@ The modern graphical interface will open:
 │  🔧 Support Configuration      │                              │
 │  📏 Slab Thickness             │                              │
 │  ⚡ Design Options             │                              │
-│                                │                              │
+│                                 │                              │
 │  [🚀 Calculate] [📄 PDF]       │                              │
 │  [📐 DXF] [🗑️ Clear]           │                              │
 └────────────────────────────────┴──────────────────────────────┘
@@ -1147,19 +1147,19 @@ def _draw_plan_view(self, flight_data, x_offset=0, y_offset=0):
 ```
 ┌─────────────────────────────────────────────────────────┐
 │  PLAN VIEW - FIRST FLIGHT                               │
-│                                                          │
-│   ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┐   │
-│   │     │     │     │     │     │     │     │     │   │
-│   │  1  │  2  │  3  │  4  │  5  │  6  │  7  │  8  │   │
-│   ├─ ─ ─┼─ ─ ─┼─ ─ ─┼─ ─ ─┼─ ─ ─┼─ ─ ─┼─ ─ ─┼─ ─ ─┤   │
-│   ├─ ─ ─┼─ ─ ─┼─ ─ ─┼─ ─ ─┼─ ─ ─┼─ ─ ─┼─ ─ ─┼─ ─ ─┤   │
-│   ├─ ─ ─┼─ ─ ─┼─ ─ ─┼─ ─ ─┼─ ─ ─┼─ ─ ─┼─ ─ ─┼─ ─ ─┤   │
-│   └─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘   │
+│                                                         │
+│   ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┐     │
+│   │     │     │     │     │     │     │     │     │     │
+│   │  1  │  2  │  3  │  4  │  5  │  6  │  7  │  8  │     │
+│   ├─ ─ ─┼─ ─ ─┼─ ─ ─┼─ ─ ─┼─ ─ ─┼─ ─ ─┼─ ─ ─┼─ ─ ─┤     │
+│   ├─ ─ ─┼─ ─ ─┼─ ─ ─┼─ ─ ─┼─ ─ ─┼─ ─ ─┼─ ─ ─┼─ ─ ─┤     │
+│   ├─ ─ ─┼─ ─ ─┼─ ─ ─┼─ ─ ─┼─ ─ ─┼─ ─ ─┼─ ─ ─┼─ ─ ─┤     │
+│   └─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘     │
 │    ↑                                               ↑    │
-│    │←────────── LENGTH: 2240mm ─────────────────→│    │
-│                                                          │
+│    │←────────── LENGTH: 2240mm ─────────────────→│      │
+│                                                         │
 │   Dashed lines = Main reinforcement bars                │
-│                                                          │
+│                                                         │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -1199,23 +1199,23 @@ def _draw_reinforcement_detail(self, flight_data, x_offset=0, y_offset=0):
 ```
 ┌─────────────────────────────────────────────────────────┐
 │  REINFORCEMENT DETAILS                                  │
-│                                                          │
+│                                                         │
 │  MAIN REINFORCEMENT:                                    │
 │    12mm dia @ 150mm c/c                                 │
 │    As required = 754 mm²/m                              │
-│                                                          │
+│                                                         │
 │  TEMPERATURE REINFORCEMENT:                             │
 │    10mm dia @ 240mm c/c                                 │
 │    As provided = 327 mm²/m                              │
-│                                                          │
+│                                                         │
 │  CONCRETE COVER: 25mm                                   │
 │  SLAB THICKNESS: 180mm                                  │
 │  EFFECTIVE DEPTH: 148mm                                 │
-│                                                          │
+│                                                         │
 │         ●  Main Bar 12mm                                │
-│                                                          │
+│                                                         │
 │         ●  Temp Bar 10mm                                │
-│                                                          │
+│                                                         │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -1265,16 +1265,16 @@ When exported, the DXF file contains:
 ├──────────────────────────────────────────────────────────────────┤
 │                                                                  │
 │  SECTION VIEW              │    PLAN VIEW                        │
-│  [Longitudinal section     │    [Top view with                  │
-│   with steps, slab, and    │     reinforcement layout]          │
-│   reinforcement bars]      │                                    │
-│                            │                                    │
-├────────────────────────────┼────────────────────────────────────┤
-│                            │                                    │
-│  REINFORCEMENT DETAIL      │    TITLE BLOCK                     │
-│  [Bar schedule with        │    [Project info,                  │
-│   spacing and areas]       │     materials, date]               │
-│                            │                                    │
+│  [Longitudinal section     │    [Top view with                   │
+│   with steps, slab, and    │     reinforcement layout]           │
+│   reinforcement bars]      │                                     │
+│                            │                                     │
+├────────────────────────────┼─────────────────────────────────────┤
+│                            │                                     │
+│  REINFORCEMENT DETAIL      │    TITLE BLOCK                      │
+│  [Bar schedule with        │    [Project info,                   │
+│   spacing and areas]       │     materials, date]                │
+│                            │                                     │
 └──────────────────────────────────────────────────────────────────┘
 ```
 
@@ -1316,13 +1316,13 @@ colors = {
 Each input section is organized as a modern card:
 ```
 ┌────────────────────────────────────────┐
-│  🧱 Material Properties               │
+│  🧱 Material Properties                │
 ├────────────────────────────────────────┤
 │                                        │
-│  f'c:     [20.7  ] MPa                │
-│  fy:      [275   ] MPa                │
-│  γ:       [24    ] kN/m³              │
-│  β₁:      [0.85  ]                    │
+│  f'c:     [20.7  ] MPa                 │
+│  fy:      [275   ] MPa                 │
+│  γ:       [24    ] kN/m³               │
+│  β₁:      [0.85  ]                     │
 │                                        │
 └────────────────────────────────────────┘
 ```
@@ -1835,4 +1835,7 @@ furnished to do so, subject to the following conditions:
 - ezdxf CAD export library
 
 **Design Standards:**
--
+- NSCP 2015 Sections 405, 409, 422, 424, 425
+- ACI 318-14 (reinforcement spacing, design)
+- Structural design principles for stairways
+- Reinforced concrete safety and ductility considerations
