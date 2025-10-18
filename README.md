@@ -26,6 +26,9 @@
 
 ---
 
+<img width="1393" height="827" alt="image" src="https://github.com/user-attachments/assets/5f2c3084-f313-47d9-943e-c94a146359fa" />
+
+
 ## ✨ What Makes This Special
 
 This intelligent Python application revolutionizes how structural engineers design reinforced concrete stairways. Fully compliant with **NSCP 2015 standards**, it provides an intuitive graphical interface that automates the entire design process—from geometry input to reinforcement detailing—complete with professional PDF reports and AutoCAD-compatible DXF drawings.
